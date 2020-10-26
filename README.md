@@ -35,6 +35,9 @@ Address of 2nd double word = M[8]
 
 Address of 3rd double word = M[16]........ so on
 
+
+Therefore 32 int registers in RISC-V architecture (0-31).
+
 GNU Compiler is required for RISC-V and simulator. We need to set it up on Ubuntu which is installed in VM Virtual Box for Windows OS. Here we installed GNU compiler and Spike siulator which will be required for debugging as well.
 Day 4
 On this day, the plan was to implement the following :
