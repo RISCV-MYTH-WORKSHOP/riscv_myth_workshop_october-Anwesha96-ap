@@ -39,6 +39,18 @@ Address of 3rd double word = M[16]........ so on
 Therefore 32 int registers in RISC-V architecture (0-31).
 
 GNU Compiler is required for RISC-V and simulator. We need to set it up on Ubuntu which is installed in VM Virtual Box for Windows OS. Here we installed GNU compiler and Spike siulator which will be required for debugging as well.
+
+Day 3: 
+Digital logic with TL-Verilog in Makerchip IDE
+An introduction to TL-Verilog was provided and some basic concepts of Digital logic was brushed up. TL-Verilog stands for Transactional Level Verilog and is an updated or you can say extension of System Verilog and proves to be very efficient, bug free and easy to learn all at the same time. Using TL-Verilog for HDL implementation was very much easy and efficient. The main advantage of using TL-verilog is pipelining. It made the use of pipeline very easy without any bugs.
+
+PROS:
+Length of the code is reduced and hence less bug prone
+Easy to pipeling.
+TL-Verilog is good for architectural and synthesizable verification models. too.
+Easy for staging without use of Flip Flops i.e they are already implied from the context.
+Easy debugging and automated clock gating signal is very useful. We started off with a very simple logic of OR logic, mux, counter, fibonacci series etc and ended on three important designs which are combinational and sequential calculator and cycle calculator.
+
 Day 4
 On this day, the plan was to implement the following :
 
